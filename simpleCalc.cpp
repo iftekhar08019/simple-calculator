@@ -17,7 +17,7 @@ int main(){
         a = x+y;
         cout<<"Your answer is: " <<x <<" + " << y <<" = "<< a;
     }
-            if (z==2)
+        else if (z==2)
     {
         cout<<"Please Enter First Number: ";
         cin>>x;
@@ -26,7 +26,7 @@ int main(){
         a = x-y;
         cout<<"Your answer is: " <<x <<" - " << y <<" = "<< a;
     }
-            if (z==3)
+        else if (z==3)
     {
         cout<<"Please Enter First Number: ";
         cin>>x;
@@ -35,7 +35,7 @@ int main(){
         a = x*y;
         cout<<"Your answer is: " <<x <<" * " << y <<" = "<< a;
     }
-            if (z==4)
+            else if (z==4)
     {
         cout<<"Please Enter First Number: ";
         cin>>x;
@@ -43,6 +43,9 @@ int main(){
         cin>>y;
         a = x/y;
         cout<<"Your answer is: " <<x <<" / " << y <<" = "<< a;
+    }
+    else{
+        cout<<"wrong input";
     }
     return 0;
 }
